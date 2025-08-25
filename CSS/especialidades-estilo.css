@@ -1,0 +1,174 @@
+/*inicio topo*/
+.topo-principal {
+    background-color: #00cad1;
+}
+
+.espaco-itens-topo {
+    margin: 0 auto;
+    max-width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo-imagem {
+    max-width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topo-links a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.topo-links a:hover {
+    color: black;
+}
+/*fim topo*/
+
+/* Conteúdo */
+main {
+    padding: 30px 0;
+}
+/* Conteúdo*/
+
+/*Inicio Navegadores*/
+.container-nav {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navegadores {
+    font-size: 20px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navegadores a {
+    border-bottom: 3px solid #00cad1;
+}
+
+.navegadores a:hover {
+    color: #00cad1;
+}
+
+.container-nav h3 {
+    margin: 30px auto;
+    font-size: 30px;
+}
+/* Fim Navegadores */
+
+/* Inicio Especialidades */
+ .container-titulo {
+    max-width: 600px;
+    margin: 30px auto 15px;
+    text-align: center;
+ }
+
+ .container-titulo h3 {
+    font-size: 25px;
+    padding: 10px 0;   
+ }
+
+.container-especialidades {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-especialidades {
+    width: 290px;
+    height: 200px;
+}
+
+.imagem-especialidades img {
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+thead tr {
+    background-color: #00cad1;
+    color: #fff;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #cdcdcd;
+}
+
+td {
+    color: #7a7671;
+    padding-left: 5px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+/* Fim Especialidades */
+
+/* inicio rodapé */
+footer {
+    background-color: #00cad1;
+}
+
+.rodape-imagem {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.rodape-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-rodape {
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape-textos p {
+    color: #7a7671;
+    padding: 5px 0;
+}
+/* fim rodapé */
+
+/* Responsivo */
+@media (max-width: 767px) {
+    .imagem-especialidades {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+     table {
+        width: 100%;
+    }
+}
+
+@media (max-width: 489px) {
+    .topo-links {
+        max-width: 150px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
+    }
+}

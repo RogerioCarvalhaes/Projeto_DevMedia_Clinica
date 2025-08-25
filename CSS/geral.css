@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Source Sans Pro', Sans-Serif;
+}
+
+.conteudo-geral {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+h3, h2 {
+    color: #7a7671;
+}
+
+p {
+    color: #a5a6a3;
+}
