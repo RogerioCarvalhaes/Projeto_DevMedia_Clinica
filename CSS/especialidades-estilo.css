@@ -58,6 +58,7 @@ main {
 
 .navegadores a {
     border-bottom: 3px solid #00cad1;
+    color: black;
 }
 
 .navegadores a:hover {
